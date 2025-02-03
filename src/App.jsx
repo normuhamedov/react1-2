@@ -17,11 +17,11 @@ export default function App() {
           type="text"
           value={inputText}
           onChange={handleInputChange}
-          placeholder="Enter text here..."
+          placeholder="Enter text..."
           className="w-full px-4 py-2 text-gray-700 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
         />
         <h3 className="mt-4 text-2xl font-semibold text-center break-words text-purple-600 max-w-50">
-          {inputText || 'Your text will appear here '}
+          {inputText || 'Appear here : '}
         </h3>
         <button className=' bg-red-500 py-2 px-5 text-white rounded-[20px] mt-10 shadow-2xl border-none hover:bg-red-900  hover:text-red-500' onClick={cleanText}>Clean</button>
       </div>
